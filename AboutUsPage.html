@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Britannic Bold:wght@400&display=swap"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   </head>
   <body>
     <div class="about-us-page">
@@ -47,46 +48,74 @@
         We are located in Canada Ontario, in the heart of Ottawa to be exact!offers a well-equipped gym and dedicated personal trainers. Our facility provides a welcoming environment for individuals of all fitness levels. Exciting plans for expansion are in progress to enhance our services and accommodate a wider range of fitness goals. Join us to experience our supportive atmosphere and achieve your fitness aspirations.
       </div>
       <header>
-      <div class="home-page-inner">
-        <div class="group-parent23">
-          <div class="sweatgiggles-parent9">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+          <div class="container-fluid">
             <a href="index.html" class="logo-container">
               <img src="public/logo.svg" alt="sweatgiggles" class="logo" />
             </a>
-          </div>
-          <div class="frame-parent47">
-            <div class="fitness-services-parent3">
-              <div class="fitness-services5">Fitness Services</div>
-              <img class="frame-child48" alt="" src="./public/vector-1.svg" />
-            </div>
-            <div class="about-us5" id="aboutUsText">About us</div>
-            <div class="frame-select">
-              <div class="log-in5">Log In</div>
-            </div>
-            <button class="sign-in-parent2">
-              <div class="sign-in5">Sign in</div>
-              <img
-                class="vuesaxlineararrow-right-icon5"
-                alt=""
-                src="./public/vuesaxlineararrowright3.svg"
-              />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Our Services
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Fitness classes</a></li>
+                    <li><a class="dropdown-item" href="#">Personal trainers</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./AboutUsPage.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
+        </nav>
     </header>
       <div class="vector-parent">
         <img class="group-item" alt="" src="./public/vector-28.svg" />
 
         <b class="where-to-find">Where to find us </b>
       </div>
-      <input placeholder="Your Name" type="text" class="group-input" />
+      <span  class="group-input">
+        <div class="form-floating mb-3">
+          <input type="name" class="form-control" id="floatingInput" placeholder="Full Name">
+          <label for="floatingInput">Full Name</label>
+        </div>
+      </span>
+      <!-- <input placeholder="Enter Email Address" class="about-us-page-child1" type="email"/> -->
+      <span class="about-us-page-child1">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+      </span>"
 
-      <input placeholder="Enter Email Address" class="about-us-page-child1" type="email"/>
+      <span class="about-us-page-child2">
+      <!-- <input class="about-us-page-child2" type="text" placeholder="Message Title" /> -->
+      <div class="form-floating mb-3">
+        <input type="name" class="form-control" id="floatingInput" placeholder="Full Name">
+        <label for="floatingInput">Full Name</label>
+      </div>
+      </span>
 
-      <input class="about-us-page-child2" type="text" placeholder="Message Title" />
+      <span class="group-textarea">
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Comments</label>
+        </div>
+    </span>
 
-      <textarea placeholder="Leave a message" class="group-textarea" id="content" > </textarea>
+      <!-- <textarea placeholder="Leave a message" class="group-textarea" id="content" > </textarea> -->
       <div class="send-message-wrapper">
         <b class="send-message">send message</b>
       </div>
@@ -154,5 +183,9 @@
         });
       }
       </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
   </body>
 </html>

@@ -1,3 +1,8 @@
+.navbar-custom {
+  background-color: rgba(142, 202, 230, 0.25);
+  height: 88px;
+}
+
 .group-child45 {
   position: absolute;
   top: 0;
@@ -546,7 +551,7 @@ label {
 .about-us-page-child2,
 .group-input,
 .group-textarea {
-  border: 1px solid #42587675;
+  /* border: 1px solid #42587675; */
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-1-17-med-size);
