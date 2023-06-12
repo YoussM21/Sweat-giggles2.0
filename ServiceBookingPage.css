@@ -269,16 +269,16 @@
 }
 
 .group-child26 {
-  border: 0;
+  border: 1px solid #4258766e;
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-2-15-med-size);
   background-color: transparent;
   position: absolute;
-  top: 12px;
+  top: 11px;
   left: 0;
-  width: 518px;
-  height: 48px;
+  width: 510px;
+  height: 45px;
 }
 .group-child27 {
   position: absolute;
@@ -315,7 +315,7 @@
   height: 60px;
 }
 .group-child28 {
-  border: 0;
+  border: 1px solid #4258766e;
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-2-15-med-size);
@@ -348,7 +348,7 @@
   height: 60px;
 }
 .group-child30 {
-  border: 0;
+  border: 1px solid #4258766e;
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-2-15-med-size);
@@ -580,7 +580,7 @@
   gap: var(--gap-9xs);
 }
 .frame-child26 {
-  border: 0;
+  border: 1px solid #4258766e;
   background-color: transparent;
   font-weight: 500;
   font-family: var(--body-2-15-med);

@@ -275,7 +275,7 @@
 }
 .contact-us {
   position: absolute;
-  top: 972px;
+  top: 995px;
   left: 150px;
   font-size: var(--h-1-34-bold-size);
 }
@@ -284,8 +284,8 @@
   top: 507px;
   left: 60%;
   border-radius: 7.93px;
-  width: 663px;
-  height: 425px;
+  width: 670px;
+  height: 460px;
   object-fit: cover;
 }
 .frame-child {
@@ -350,7 +350,7 @@
   width: 558px;
 }
 .rectangle-parent {
-  top: 680px;
+  top: 730px;
   border-radius: var(--br-3xs);
   background-color: var(--white);
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
@@ -368,6 +368,7 @@
   letter-spacing: 0.02em;
   line-height: 180%;
   font-weight: 500;
+  width: 820px;
   display: inline-block;
 }
 .giggles {
@@ -535,11 +536,17 @@
   font-size: var(--h-1-34-bold-size);
   color: var(--black-1);
 }
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 .about-us-page-child1,
 .about-us-page-child2,
 .group-input,
 .group-textarea {
-  border: 0;
+  border: 1px solid #42587675;
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-1-17-med-size);

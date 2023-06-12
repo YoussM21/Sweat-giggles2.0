@@ -457,7 +457,7 @@
   justify-content: center;
 }
 .group-child4 {
-  border: 0;
+  border: 1px solid #4258766e;
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-2-15-med-size);
@@ -516,7 +516,7 @@
   height: 23px;
 }
 .group-child8 {
-  border: 0;
+  border: 1px solid #4258766e;
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-2-15-med-size);
@@ -547,7 +547,7 @@
   height: 60px;
 }
 .group-child10 {
-  border: 0;
+  border: 1px solid #4258766e;
   font-weight: 500;
   font-family: var(--body-2-15-med);
   font-size: var(--body-2-15-med-size);
