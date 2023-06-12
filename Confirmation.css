@@ -1,0 +1,72 @@
+.button {
+  position: absolute;
+  font-size: var(--body-2-15-med-size);
+  letter-spacing: 0.02em;
+  line-height: 180%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--body-2-15-med);
+  color: var(--white);
+  text-align: left;
+}
+.buttonfull-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonfull-width {
+  position: absolute;
+  top: 75%;
+  left: 37%;
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-140xl);
+  background-color: var(--color-slategray);
+  border-radius: var(--br-8xs);
+  width: 486px;
+  height: 56px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.confirmation-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 413px;
+}
+.frame-child2 {
+  position: relative;
+  width: 172px;
+  height: 172px;
+}
+.appointment-successfully-booke {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 170%;
+}
+.group-parent2 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.confirmation {
+  position: relative;
+  background-color: var(--black-9);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h-2-20-bold-size);
+  color: var(--black-1);
+  font-family: var(--body-2-15-med);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Confirmation.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Britannic Bold:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="confirmation">
+      <div class="confirmation-child"></div>
+      <div class="group-parent2">
+        <img class="frame-child2" alt="" src="./public/group-12611.svg" />
+
+        <b class="appointment-successfully-booke"
+          >Appointment Successfully Booked</b
+        >
+      </div>
+    </div>
+    <button class="buttonfull-width" id="buttonFullWidth">
+      <div class="button">GO TO HOME PAGE</div>
+    </button>
+
+    <script>
+      
+      var buttonFullWidth = document.getElementById("buttonFullWidth");
+      if (buttonFullWidth) {
+        buttonFullWidth.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+    
+    </script>
+  </body>
+</html>
